@@ -17,7 +17,7 @@ driver.find_element(By.XPATH, '//*[@id="btnDownloadUrl"]').click()
 print(driver.title)
 print(driver.current_url)
 
-sleep(50)
+sleep()
 
 
 
